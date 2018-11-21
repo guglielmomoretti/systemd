@@ -1832,7 +1832,7 @@ static int run(int argc, char *argv[]) {
         if (arg_daemonize) {
                 pid_t pid;
 
-                log_info("starting version " PACKAGE_VERSION);
+                /*log_info("starting version " PACKAGE_VERSION);*/
 
                 /* connect /dev/null to stdin, stdout, stderr */
                 if (log_get_max_level() < LOG_DEBUG) {
